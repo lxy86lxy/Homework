@@ -18,12 +18,6 @@ public class FirstHomework {
             list.add(a[i]);
         }
         Collections.sort(list);
-        Collections.sort(list, new Comparator<Integer>() {
-            @Override
-            public int compare(Integer integer, Integer t1) {
-                return 0;
-            }
-        });
         for (int i = 0; i < list.size(); i++) {
             int temp = (int) list.get(i);
             System.out.println(temp);
